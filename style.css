@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa; /* Light grey background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 600px; /* Constrain content width */
+}
+
+.card {
+    border-radius: 0.75rem; /* Rounded corners for the card */
+}
+
+#weather-results {
+    min-height: 100px; /* Give some space even if no results yet */
+}
+
+#weather-results h2 {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+#weather-results p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
